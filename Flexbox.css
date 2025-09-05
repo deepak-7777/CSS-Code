@@ -1,0 +1,35 @@
+h1 {
+    background-color: red;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.5); 
+    display: inline-block;
+    margin: 25;
+    padding: 25;
+     /* border-radius: 25%;  */
+}
+#box1 {
+    background-color: rgba(255,0,0,0.5);
+    border: solid black 2px;
+    display: inline-block;
+    background-image: url("anime.jpg.jpg");
+    background-size: cover;
+}
+#box2 {
+    background-color: rgba(255,0,0,0.75);
+    border: solid black 2px;
+    display: inline-block;
+    background-image: url("mahadev.png");
+    background-size: contain;
+}
+#box3 {
+    background-color: rgba(255,0,0,1);
+    border: solid black 2px;
+    display: inline-block;
+    background-image: url(amazon1.jpg);
+    background-size: cover;
+   
+}
+

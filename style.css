@@ -1,0 +1,44 @@
+h3 {
+    color : rgb(255, 0, 76);
+    text-decoration: line-through;
+}
+h1{
+    font-weight: normal;
+}
+h2 {
+    background-color: aqua;
+    
+}
+/* div {
+    background-color: pink;
+    font-weight: 900;
+    font-size: 5;
+    line-height: 15;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: brown; */
+    /* border: red solid 5px;
+} */ */
+*{
+    margin : 0;
+    padding : 0;
+  }
+  p {
+    text-align: right;
+  }
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    /* border-radius: 25%;  */
+   /* padding: 2px 5px 8px 10px;*/
+    /* padding-top: 10;
+    padding-bottom: 20;
+    padding-right: 25; */
+    /* padding: 25px;
+    margin: 25px; */
+   /* margin: 2px 4px7px 9px; */
+ /* } */
+

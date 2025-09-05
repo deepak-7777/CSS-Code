@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+body {
+    background-color: #f2f3f3;
+}
+.navbar {
+    height: 67px;
+    width: 1520px;
+    background-color:white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+}  
+ .logo {
+    height: 50px;
+    width: 160px;
+    /* background-image: url(flipkart_logo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 1px; */
+ }
+.search-icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 40px;
+    width: 44px;
+    border: none;
+    color: gray;
+    font-size: 1.2rem;
+    border: none;
+} 
+.search-logo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(231, 219, 219);
+    width: 700px;
+    height: 40px;
+    border-radius: 6px;  
+    border: none;
+}
+.search-input {
+    background-color:rgb(231, 219, 219);
+    font-size: 1rem;
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    font-size: 1rem; 
+}
+.login {
+   display: flex;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border-radius: 6px;
+    background-color: blue;
+    cursor: pointer;
+}
+.search-select {  
+    height: 40px;
+   text-align: center;
+   width: 60px;
+   border: none;
+   font-size: 1rem;
+   color: rgb(53, 47, 47);
+}
+.login-box {
+    height: 40px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(53, 47, 47);   
+    font-size: 1.2rem;    
+}
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    font-size: 1rem;
+    color: rgb(53, 47, 47);
+}
+.cart:hover {
+    cursor: pointer;
+}
+.cart-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(65, 59, 59); 
+    height: 40px;
+    width: 60px;
+    position: relative;
+    right: 9px;
+}
+.sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    font-size: 1rem;
+    color: rgb(53, 47, 47);
+}
+.sell:hover {
+    cursor: pointer;
+}
+.sell-box {
+    font-size: 1.2rem;
+    color: rgb(57, 51, 51); 
+    position: relative;
+    right: 9px;
+}
+.dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: rgb(73, 67, 67);
+    margin-right: -10px;
+}
+.bord {
+    border: 1px solid transparent;
+}
+.bord:hover {
+    border-radius: 6px;
+    border: 2px solid #dbe6e3;
+    background-color: #e2e7e6;
+    cursor: pointer;
+}
+.shop-section {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 16px;
+    margin-left: 16px;
+   padding-top: 58px;
+}
+.box {
+    height: 100px;
+    width: 1407px;
+    background-color: white;
+    padding: 16px 16px 16px 24px;
+   margin-top: 8px; 
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box-content p {
+    margin-left: 0.6rem;   
+   color: #333333;
+   font-weight: 700;  
+}
+.box-image1 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart11.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image2 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart8.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image3 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart3.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image4 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart9.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image5 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart7.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image6 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart4.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image7 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart6.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image8 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart2.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image9 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart10.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.box-image10 {
+    height: 48px;
+    width: 48px;
+    background-image: url(flipkart5.webp);
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    background-position: center; 
+}
+.mid {
+background-image: url(flipkart1.webp);
+background-size: cover;
+height: 270px;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 18px;
+}
+.all-box {
+    height: 365px;
+    width: 1505px;
+    border: 2px solid transparent;  
+}
+.top-offers {
+    display: flex;
+   align-items: center;
+   margin-top: 15px;
+    height: 64px;
+    width: 1170px;
+    font-size: 1.5rem;
+    color: #1f1f1f;
+    background-color: white;
+    margin-left: 15px;
+}
+.top-offers1 {
+    padding: 16px;
+    position: relative;
+    left: 20px;
+}
+.top-offers2 {
+    position: absolute;
+    right: 345px;
+    height: 24px;
+    width: 24px;
+    margin: 4px;
+    color: blue;
+}
+.shop-section2 {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    width: 1170px;
+    height: 270px;
+    margin-left: 15px;
+    margin-right: 18px;
+    margin-top: 0px;
+}
+.box-content1 {
+    height: 155px;  
+}
+.box12 {
+    border: 0.2px solid rgb(224, 221, 221);
+    height: 230px;
+    width: 218px;
+    background-color: white;
+    margin: 7px; 
+    border-radius: 3px;
+}
+.box-content1 p {
+    margin-top: 0.3rem;
+    margin-left: 3.5rem;
+    font-size: 0.9rem;
+}
+.box-content1 h2 {
+    margin-left: 3rem;
+    font-size: 0.80rem;  
+}
+.box-image11 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart21.webp);
+    background-size: contain;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.box-image22 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart18.webp);
+    background-size: contain;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.box-image33 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart19.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.box-image44 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart17.webp);
+    background-size: contain;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.box-image55 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart20.webp);
+    background-size: contain;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.box-image66 {
+    height: 178px;
+    width: 161px;
+    background-image: url(flipkart22.webp);
+    background-size: contain;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.side-box {
+    height: 345px;
+    width: 277px;
+    background-color: white;
+    position: relative;
+    left: 45px;
+    bottom: 70px;
+    background-image: url(flipkart15.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.side-box2 {
+    width: 330px;
+    height: 275px;
+}
+.big-image {
+    height: 320px;
+    width: 1477px;
+    background-image: url(flipkart24.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    margin-left: 15px;
+}
+.offers {
+    height: 550px;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-left: 9px;
+    margin-top: 15px; 
+}
+.boxx1 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart25.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.boxx2 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart26.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.boxx3 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart27.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.boxx4 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart28.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.boxx5 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart29.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.boxx6 {
+    height: 260px;
+    width: 495px;
+    background-image: url(flipkart30.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.footer-panel2 {
+   border: 1px solid rgb(109, 109, 129);
+    background-color: rgb(37, 36, 36);
+    height: 270px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 40px;
+}
+.footer-panel2 p {
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    color: rgb(162, 159, 159);
+}
+ul a {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 3px;
+    color: #FFFFFF;
+}
+.footer-panel3 {
+    background-color: rgb(37, 37, 37);
+    border: 0.3px solid rgb(85, 85, 97);
+    color: #e5dede;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.78rem;
+    /* border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; */
+}
+.footer-panel3 a {
+    color: rgb(87, 87, 179);
+}
+.foot-logo {
+    height: 40px;
+    width: 410px; 
+    display: flex;
+    background-image: url(flipkart31.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.foot-logo1 {
+   display: flex;
+}
+.font-logo2 {
+    color: yellow;
+    margin-right: 10px;
+    font-size: 0.6rem;
+}

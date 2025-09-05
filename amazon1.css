@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#navbar {
+background-color: #0f1111;
+height: 60px;
+color: white;
+}
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+button {
+    background-color:  #f08804;
+}
+a {
+    margin: 150px;
+    text-decoration: none;
+}
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content {
+    height: 500px;
+}
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+.radio {
+    height: 70px;
+    width: 70px;
+    border: 1px solid brown;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 40%;
+}
