@@ -20,7 +20,6 @@ The purpose of this project is to practice CSS concepts and learn how to style a
 * Borders
 * Flexbox
 * Basic Grid Layout
-* Positioning
 
 ---
 
