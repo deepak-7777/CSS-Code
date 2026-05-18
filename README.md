@@ -4,7 +4,7 @@ This repository contains my practice work created while learning **CSS (Cascadin
 
 ---
 
-## 📚 About
+## 📚 About 
 
 The purpose of this project is to practice CSS concepts and learn how to style and design visually appealing web pages.
 
