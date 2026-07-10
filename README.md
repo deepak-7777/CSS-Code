@@ -26,7 +26,7 @@ The purpose of this project is to practice CSS concepts and learn how to style a
 ## 🛠️ Tech Used
 
 * CSS3
-* HTML
+* HTML 
 * VS Code 
 
 ---
