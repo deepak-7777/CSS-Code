@@ -15,7 +15,7 @@ The purpose of this project is to practice CSS concepts and learn how to style a
 * CSS Selectors
 * Colors & Backgrounds
 * Fonts & Text Styling
-* Box Model
+* Box Model 
 * Margins & Padding
 * Borders
 * Flexbox
