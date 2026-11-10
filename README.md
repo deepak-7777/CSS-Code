@@ -1,4 +1,4 @@
-# 📂 CSS Practice Project
+# 📂 CSS Practice Project 
 
 This repository contains my practice work created while learning **CSS (Cascading Style Sheets)**. It includes various styling examples and layouts that demonstrate my understanding of web design and page presentation.
 
